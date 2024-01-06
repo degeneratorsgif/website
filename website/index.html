@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>de_generators</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <div id="app"></div>
+    <script type="text/babel">
+        function App() {
+            return (
+                <div className="px-8 py-12">
+                    <h1 className="text-6xl text-center mb-6">de_generators</h1>
+                    <div className="flex justify-center space-x-4 mb-12">
+                        <a href="https://twitter.com/de_generators" target="_blank" rel="noopener noreferrer" className="text-blue-400">
+                            <i className="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="text-indigo-400">
+                            <i className="fab fa-discord fa-2x"></i>
+                        </a>
+                        <a href="mailto:info@degenerators.com" className="text-red-400">
+                            <i className="fas fa-envelope fa-2x"></i>
+                        </a>
+                    </div>
+                    <h2 className="text-3xl text-center mb-6">888 animated degenerators</h2>
+                    <p className="text-center mb-12">fully degen, maximum fun</p>
+                    <h2 className="text-3xl text-center mb-6">no roadmap</h2>
+                    <p className="text-center mb-12">discord: after sold-out released in twitter</p>
+                    <h2 className="text-3xl text-center mb-6">TWITTER: @de_generators</h2>
+                    <p className="text-center mb-12">we can't share too much right now. just have fun</p>
+                    <div className="flex justify-center">
+                        <img src="1.gif" alt="Animated placeholder image representing a de_generator" className="rounded-full mb-12" />
+                    </div>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
+</body>
+</html>
